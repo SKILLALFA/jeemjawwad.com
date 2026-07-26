@@ -46,12 +46,12 @@ function App() {
 
             <AnimatedHeading 
               text={`Shaping tomorrow\nwith vision and action.`}
-              className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal mb-4"
+              className="text-3xl min-[400px]:text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-normal mb-4"
               style={{ letterSpacing: '-0.04em' }}
             />
 
             <FadeIn delay={800} duration={1000}>
-              <p className="text-base md:text-lg text-gray-300 whitespace-nowrap">
+              <p className="text-sm min-[400px]:text-base md:text-lg text-gray-300 whitespace-normal xl:whitespace-nowrap max-w-2xl">
                 We back visionaries and craft ventures that define what comes next.
               </p>
             </FadeIn>
